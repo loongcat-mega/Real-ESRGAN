@@ -6,7 +6,7 @@ import os
 import subprocess
 import time
 
-version_file = 'version.py'
+version_file = 'esrgan_video_enhance/version.py'
 
 
 def readme():
