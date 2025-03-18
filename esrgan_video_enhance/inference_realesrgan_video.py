@@ -214,7 +214,7 @@ def inference_video(args, video_save_path, device=None, total_workers=1, worker_
     else:
         raise ValueError('Unknown model name')
     # ---------------------- determine model paths ---------------------- #
-    model_path = os.path.join('weights', args.model_name + '.pth')
+    model_path = os.path.join('../weights', args.model_name + '.pth')
     if not os.path.isfile(model_path):
         ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
         for url in file_url:
@@ -391,7 +391,7 @@ class ESRGANer:
         parser.add_argument(
             '--alpha_upsampler',
             type=str,
-            default=self.args.get('alpha_upsampler', 'realesrgan'),
+            default=self.args.get('alpha_upsampler', '../realesrgan'),
             help='The upsampler for the alpha channels. Options: realesrgan | bicubic')
         parser.add_argument(
             '--ext',

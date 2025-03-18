@@ -1,7 +1,7 @@
 include assets/*
 include inputs/*
 include scripts/*.py
-include inference_realesrgan.py
+include inference_realesrgan_video.py
 include VERSION
 include LICENSE
 include requirements.txt

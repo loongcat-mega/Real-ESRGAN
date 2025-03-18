@@ -82,7 +82,7 @@ def get_requirements(filename='requirements.txt'):
 if __name__ == '__main__':
     write_version_py()
     setup(
-        name='qingruixuesrgan',
+        name='videoenhance',
         version=get_version(),
         description='Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration',
         long_description=readme(),
