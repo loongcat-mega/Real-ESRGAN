@@ -82,15 +82,15 @@ def get_requirements(filename='requirements.txt'):
 if __name__ == '__main__':
     write_version_py()
     setup(
-        name='realesrgan',
+        name='realesrgan_qingruixu_optimized_v1',
         version=get_version(),
         description='Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration',
         long_description=readme(),
         long_description_content_type='text/markdown',
-        author='Xintao Wang',
-        author_email='xintao.wang@outlook.com',
+        author='qingruixu',
+        author_email='qingruixu@tencent.com',
         keywords='computer vision, pytorch, image restoration, super-resolution, esrgan, real-esrgan',
-        url='https://github.com/xinntao/Real-ESRGAN',
+        url='https://github.com/loongcat-mega/Real-ESRGAN.git',
         include_package_data=True,
         packages=find_packages(exclude=('options', 'datasets', 'experiments', 'results', 'tb_logger', 'wandb')),
         classifiers=[
