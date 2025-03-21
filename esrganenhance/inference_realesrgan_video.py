@@ -14,7 +14,7 @@ from os import path as osp
 from tqdm import tqdm
 from decimal import Decimal
 
-from realesrgan import RealESRGANer
+from realesrgan.utils import RealESRGANer
 from realesrgan.archs.srvgg_arch import SRVGGNetCompact
 
 try:
